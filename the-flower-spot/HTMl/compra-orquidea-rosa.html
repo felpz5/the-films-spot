@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Compra - Orquídea Rosa Imperial</title>
+  <link rel="stylesheet" href="_css/style.css" />
+   <link rel="icon" href="FLORES/icons8-girassol-64.png" type="image/png">
+  <link rel="stylesheet" href="_css/compra-orquidea-rosa.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet" />
+  
+</head>
+<body>
+  <header class="topo">
+    <h1 class="logo">The Flower Spot</h1>
+    <input type="text" placeholder="Pesquisar..." class="pesquisa" />
+    <nav class="menu">
+      <div class="dropdown">
+        <button class="menu-btn"><i class="fas fa-bars"></i> Cidades</button>
+        <div class="menu-dropdown">
+          <a href="#">Fortaleza</a>
+          <a href="#">Juazeiro</a>
+          <a href="#">Crato</a>
+          <a href="#">Sobral</a>
+        </div>
+      </div>
+      <a href="#" class="whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <button class="carrinho"><i class="fas fa-shopping-cart"></i></button>
+    </nav>
+  </header>
+
+  
+
+  <section class="pagina-compra">
+    <div class="imagem-produto">
+      <img src="FLORES/18.webp" alt="Orquídea Rosa Imperial" />
+    </div>
+    <div class="detalhes-produto">
+      <h2>Orquídea Rosa Imperial (12 Rosas)</h2>
+      <p><strong></strong> </p>
+      <p>Um buquê deslumbrante.</p>
+
+      <div class="sobre-entrega">
+        <strong>Sobre a Entrega:</strong><br />
+        As entregas serão feitas dentro da manhã, tarde e noite.
+      </div>
+
+      <p class="preco">R$ 89,90</p>
+
+      <div class="quantidade">
+        <button onclick="alterarQuantidade(-1)">−</button>
+        <span id="qtd">1</span>
+        <button class="adicionar" onclick="alterarQuantidade(1)">+</button>
+      </div>
+
+      <div class="acoes-compra">
+        <button class="btn-carrinho">ADICIONAR NO CARRINHO</button>
+        <button class="btn-comprar">COMPRAR AGORA</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="catalogo">
+    <h2>Você também pode gostar</h2>
+    <div class="produtos-container">
+      <div class="produtos-linha">
+        <div class="produto">
+          <img src="FLORES/1.jpg" alt="Orquídea Rosa Imperial" />
+          <h3>Orquídea Rosa Imperial</h3>
+          <p>R$ 89,90</p>
+          <button onclick="window.location.href='compra-orquidea-rosa.html'" class="comprar">Comprar</button>
+        </div>
+        <div class="produto">
+          <img src="FLORES/2.jpg" alt="Gérbera do Sol" />
+          <h3>Gérbera do Sol</h3>
+          <p>R$ 94,90</p>
+         <button class="comprar" onclick="window.location.href='compra-gerbera.html'">Comprar</button>
+        </div>
+        <div class="produto">
+          <img src="FLORES/3.jpg" alt="Lírio da Paz Branca" />
+          <h3>Lírio da Paz Branca</h3>
+          <p>R$ 79,90</p>
+         <button  class="comprar"onclick="window.location.href='compra-lirio.html'">Comprar</button>
+        </div>
+        <div class="produto">
+          <img src="FLORES/4.jpg" alt="Dália Roxa Encantada" />
+          <h3>Dália Roxa Encantada</h3>
+          <p>R$ 99,90</p>
+          <button  class="comprar"onclick="window.location.href='compra-dalia.html'">Comprar</button>
+
+        </div>
+      </div>
+      
+      <div class="produtos-linha">
+        <div class="produto">
+          <img src="FLORES/5.jpg" alt="Orquídea Rosa Imperial" />
+          <h3>Orquídea Rosa Imperial</h3>
+          <p>R$ 89,90</p>
+          <button onclick="window.location.href='compra-orquidea-rosa.html'" class="comprar">Comprar</button>
+        </div>
+        <div class="produto">
+          <img src="FLORES/6.jpg" alt="Gérbera do Sol" />
+          <h3>Gérbera do Sol</h3>
+          <p>R$ 94,90</p>
+          <button class="comprar" onclick="window.location.href='compra-gerbera.html'">Comprar</button>
+        </div>
+        <div class="produto">
+          <img src="FLORES/7.jpg" alt="Lírio da Paz Branca" />
+          <h3>Lírio da Paz Branca</h3>
+          <p>R$ 79,90</p>
+          <button  class="comprar"onclick="window.location.href='compra-lirio.html'">Comprar</button>
+        </div>
+        <div class="produto">
+          <img src="FLORES/8.jpg" alt="Dália Roxa Encantada" />
+          <h3>Dália Roxa Encantada</h3>
+          <p>R$ 99,90</p>
+          <button class="comprar">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="rodape">
+    <p>&copy; 2025 The Flower Spot - Todos os direitos reservados</p>
+  </footer>
+
+  
+</body>
+</html>

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  background-color: #fff5f7; 
+  color: #4a3c3c; 
+}
+
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9e8ef; 
+  box-shadow: 0 2px 4px rgba(154, 87, 108, 0.2);
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 2.2rem;
+  color: #a8526c; 
+  font-weight: bold;
+  font-family: "Imperial Script", cursive;
+}
+
+.pesquisa {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #dca9b9; 
+  width: 200px;
+  color: #4a3c3c;
+}
+
+.pesquisa::placeholder {
+  color: #bfa1a8;
+}
+
+.whatsapp, .carrinho {
+  font-size: 1.4rem;
+  color: #6f3e4b;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mensagem-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  gap: 20px;
+}
+
+.mensagem h2 {
+  font-family: "Imperial Script", cursive;
+  font-size: 2.5rem;
+  color: #a8526c;
+}
+
+/* já existente, mas com fonte ajustada */
+.comprar {
+  background: linear-gradient(45deg, #f48fb1, #a8526c);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.comprar:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #a8526c, #7b5363);
+}

@@ -1,0 +1,111 @@
+     section.pagina-compra {
+      display: flex;
+      max-width: 1000px;
+      margin: 40px auto;
+      gap: 30px;
+      padding: 0 20px;
+    }
+    .imagem-produto {
+      flex: 1 1 350px;
+    }
+    .imagem-produto img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(168, 97, 116, 0.3);
+    }
+    .detalhes-produto {
+      flex: 1 1 400px;
+      border: 1px solid #ddd;
+      padding: 25px 30px;
+      border-radius: 8px;
+      font-size: 16px;
+      color: #444;
+    }
+    .detalhes-produto h2 {
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #7b5363;
+    }
+    .detalhes-produto p {
+      margin-bottom: 10px;
+      line-height: 1.4;
+    }
+    .detalhes-produto .preco {
+      font-weight: 700;
+      font-size: 22px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: #a8526c;
+    }
+    .sobre-entrega {
+      background: #f0ebf0;
+      border-left: 4px solid #a8526c;
+      padding: 8px 15px;
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #6d4a5a;
+    }
+    .quantidade {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 25px;
+    }
+    .quantidade button {
+      width: 32px;
+      height: 32px;
+      border: none;
+      background: #666;
+      color: #fff;
+      font-size: 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .quantidade button.adicionar {
+      background: #a8526c;
+    }
+    .quantidade span#qtd {
+      min-width: 30px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .acoes-compra {
+      display: flex;
+      gap: 15px;
+    }
+    .acoes-compra button {
+      flex: 1;
+      padding: 12px 0;
+      border-radius: 5px;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 14px;
+      border: 2px solid transparent;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .btn-carrinho {
+      background: #fff;
+      border-color: #a8526c;
+      color: #a8526c;
+    }
+    .btn-carrinho:hover {
+      background: #f8bbd0;
+      color: #7b5363;
+    }
+    .btn-comprar {
+      background: #4caf50;
+      color: #fff;
+      border-color: #4caf50;
+    }
+    .btn-comprar:hover {
+      background: #388e3c;
+    }
+    @media(max-width: 720px) {
+      section.pagina-compra {
+        flex-direction: column;
+        padding: 20px;
+      }
+    }
+ 
